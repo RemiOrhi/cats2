@@ -1,0 +1,40 @@
+body {
+    background: rgb(79, 133, 102);
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    background: rgb(157, 199, 157);
+    font-size: 24px; 
+    color: green;
+}
+
+td {
+    border: 2px solid green;
+    padding: 10px;
+}
+
+td > img{
+    width: 300px; 
+}
+
+td > img:hover {
+    outline: 2px solid brown;
+}
+
+table tr:first-of-type{
+    background: rgba(66, 172, 80, 0.548);
+    font-size: 36px;
+    color: brown;
+    font-weight: bold;
+}
+
+table tr:nth-child(2){
+    background: rgb(206, 226, 215);
+}
+
+table tr:nth-child(5){
+    background: rgb(206, 226, 215);
+}
