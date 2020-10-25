@@ -20,8 +20,16 @@ td > img{
     width: 300px; 
 }
 
+table tr:nth-child(3) td:first-child img:first-child{
+    border: red solid 2px;
+}
+
+table tr:nth-child(6) td:first-child img:first-child{
+    border: red solid 2px;
+}
+
 td > img:hover {
-    outline: 2px solid brown;
+    outline: 4px solid yellow;
 }
 
 table tr:first-of-type{
